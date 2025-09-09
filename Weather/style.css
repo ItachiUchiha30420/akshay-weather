@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    height: 100vh;
+    background-image: url(img.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    border: none;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 2rem 3rem;
+    box-shadow: inset 0 0 1.5em white,
+                0 0 1.5em white;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.box h1 {
+    font-size: 4rem;
+}
+
+.box input {
+    font-size: 1em;
+    border: none;
+    padding: 0.5em 1.2em;
+    border-radius: 5em;
+    box-shadow: inset 0 0 5px black;
+}
+
+.weather {
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    align-items: center;
+}
+
+.weather button {
+    background-color: #FDDA0D;
+    padding: 0.5em 4em;
+    border-radius: 5em;
+    box-shadow: inset 0 0 10px 5px #FFFF8F;
+    border: none;
+}
